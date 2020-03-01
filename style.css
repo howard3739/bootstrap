@@ -1,0 +1,28 @@
+.card {
+  display: block;
+}
+
+.icon-style {
+  background: #f1f1f1;
+  border-radius: 50% !important;
+}
+
+.icon-style:hover {
+  background: #9cd3e9;
+}
+
+.icon-5 {
+  width: 64px;
+  height: 64px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.icon-4 {
+  background: #f1f1f1;
+}
+
+.icon-4:hover {
+  background: #bfb4e0;
+}
+/*# sourceMappingURL=style.css.map */

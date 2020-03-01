@@ -1,0 +1,51 @@
+// 修改 boostrap
+.card{
+display: block;
+}
+
+// 自己的模式
+.icon-style {
+    background: #f1f1f1;
+    border-radius: 50% !important;
+    &:hover {
+        background: rgb(156, 211, 233);
+    }
+}
+
+.icon-5 {
+    width: 64px;
+    height: 64px;
+    box-sizing: content-box;
+}
+.icon-4 {
+    background: #f1f1f1;
+    &:hover {
+        background: rgb(191, 180, 224);
+    }   
+ // RWD
+ @media screen and  {(min-width:1024) {
+    .carousel-inner{
+        height: 200px;
+        .carousel-caption {
+            bottom: 200px;
+        }
+    }
+}
+
+@media screen and  {(min-width:1200) {
+    .carousel-inner{
+        height: 200px;
+        .carousel-caption {
+            bottom: 200px;
+        }
+    }
+}
+
+@media screen and  {(min-width:420) {
+    .carousel-inner{
+        height: 200px;
+        .carousel-caption {
+            bottom: 200px;
+        }
+    }
+}
