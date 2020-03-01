@@ -25,4 +25,28 @@
 .icon-4:hover {
   background: #bfb4e0;
 }
+
+@media screen and (min-width: 1024px) {
+  .carousel-inner {
+    height: 200vh;
+  }
+  .carousel-inner .carousel-caption {
+    bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-inner {
+    height: 200vh;
+  }
+  .carousel-inner .carousel-caption {
+    bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .carousel-inner .carousel-caption {
+    bottom: 200px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

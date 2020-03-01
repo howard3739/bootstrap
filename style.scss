@@ -22,28 +22,28 @@ display: block;
     &:hover {
         background: rgb(191, 180, 224);
     }   
+}
  // RWD
- @media screen and  {(min-width:1024) {
+ @media screen and  (min-width:1024px) {
     .carousel-inner{
-        height: 200px;
+        height: 200vh;
         .carousel-caption {
             bottom: 200px;
         }
     }
 }
 
-@media screen and  {(min-width:1200) {
-    .carousel-inner{
-        height: 200px;
+@media screen and  (min-width:1200px) {
+    .carousel-inner {
+        height: 200vh;
         .carousel-caption {
             bottom: 200px;
         }
     }
 }
 
-@media screen and  {(min-width:420) {
-    .carousel-inner{
-        height: 200px;
+@media screen and  (min-width:420px) {
+    .carousel-inner {
         .carousel-caption {
             bottom: 200px;
         }
